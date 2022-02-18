@@ -1,0 +1,77 @@
+.poster{
+    display: flex;
+    margin-top: 30px;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0px 5px 7px -7px rgba(0, 0, 0, 0.75);
+    width: 100%;
+}
+
+.poster-top{
+    display: flex;
+    border-bottom: 1px solid #eff2f5;
+    padding: 15px;
+}
+
+.poster-top>form{
+    flex: 1;
+    display: flex;
+}
+
+.poster-top>form>input{
+    outline-width: 0;
+    border: none;
+    padding: 5px 20px;
+    margin: 0 10px;
+    border-radius: 999px;
+    background-color: #eff2f5;
+    outline: none;
+}
+
+.poster-input{
+    flex:1;
+}
+
+/* .poster-top>button{
+    display: none;
+} */
+
+.poster-top>button{
+    border-radius: 999px;
+    background-color: white;
+    color: #2e81f4;
+    border: 1px solid #2e81f4;
+    padding: 10px 20px;
+}
+
+.poster-top>button:hover{
+    background-color: #2e81f4;
+    color: white;
+    cursor: pointer;
+}
+
+.poster-bottom{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.poster-option{
+    display:flex;
+    padding: 20px;
+    align-items: center;
+    color: gray;
+    margin: 5px;
+}
+
+.poster-option>h3{
+    padding-left: 10px;
+    font-size: medium;
+    cursor: pointer;
+}
+
+.poster-option:hover{
+    background-color: #eff2f5;
+    border-radius: 20px;
+}
+
